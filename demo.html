@@ -1,6 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <!-- saved from url=(0014)about:internet -->
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+<html> 
     <!-- 
     Smart developers always View Source. 
     
@@ -11,7 +11,8 @@
     Learn more about Flex at http://flex.org 
     // -->
     <head>
-        <title>demo_web</title>
+    	<link rel="stylesheet" type="text/css" href="default.css">
+        <title>Starling Builder</title>
         <meta name="google" value="notranslate" />         
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <!-- Include CSS to eliminate any default margins/padding and set the height of the html element and 
@@ -20,17 +21,9 @@
              Firefox 3.6 focus border issues.  Initially, don't display flashContent div so it won't show 
              if JavaScript disabled.
         -->
-        <style type="text/css" media="screen"> 
-            html, body  { height:100%; }
-            body { margin:0; padding:0; overflow:auto; text-align:center; 
-                   background-color: #ffffff; }   
-            object:focus { outline:none; }
-            #flashContent { display:none; }
-        </style>
         
         <!-- Enable Browser History by replacing useBrowserHistory tokens with two hyphens -->
         <!-- BEGIN Browser History required section -->
-        <link rel="stylesheet" type="text/css" href="history/history.css" />
         <script type="text/javascript" src="history/history.js"></script>
         <!-- END Browser History required section -->  
             
@@ -59,8 +52,28 @@
             // JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
             swfobject.createCSS("#flashContent", "display:block;text-align:left;");
         </script>
+
     </head>
     <body>
+    
+<img src="icon.png" id="icon"/>
+<br>
+<h1>Starling Builder</h1>
+<h3 id="subtitle">Open Source UI Editor for Starling</h2>
+
+
+
+<p>
+<a class="menu" class="active" href="index2.html">Home</a>
+<a class="menu" href="download.html">Download</a>
+<a class="active_menu" href="demo.html">Demo</a>
+<a class="menu" href="http://wiki.starling-framework.org/builder/start">Documentation</a>
+<a class="menu" href="api/index.html">API Reference</a>
+</p>
+
+<hr id="hr">
+
+<h2>Online Demo:</h2>
         <!-- SWFObject's dynamic embed method replaces this alternative HTML content with Flash content when enough 
              JavaScript and Flash plug-in support is available. The div is initially hidden so that it doesn't show
              when JavaScript is disabled.
@@ -76,6 +89,7 @@
                                 + pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" ); 
             </script> 
         </div>
+
         
         <noscript>
             <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="640" height="960" id="demo_web">
@@ -104,6 +118,15 @@
                 </object>
                 <!--<![endif]-->
             </object>
-        </noscript>     
+        </noscript> 
+        
+        <h2>Demo Source Code:</h2>
+        <a href="http://github.com/mindjolt/starling-builder-engine/tree/master/demo">http://github.com/mindjolt/starling-builder-engine/tree/master/demo</a>
+        
+        <br><br>
+
+        <hr>
+
+    
    </body>
 </html>
