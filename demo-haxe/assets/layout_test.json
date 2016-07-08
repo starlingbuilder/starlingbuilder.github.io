@@ -4,81 +4,6 @@
       {
         "children":[
           {
-            "cls":"feathers.controls.Button",
-            "customParams":{},
-            "params":{
-              "label":"one",
-              "name":"button"
-            }
-          },
-          {
-            "cls":"feathers.controls.Button",
-            "customParams":{},
-            "params":{
-              "label":"two",
-              "name":"button",
-              "x":93
-            }
-          },
-          {
-            "cls":"feathers.controls.Button",
-            "customParams":{},
-            "params":{
-              "label":"three",
-              "name":"button",
-              "x":187
-            }
-          },
-          {
-            "cls":"feathers.controls.Button",
-            "customParams":{},
-            "params":{
-              "label":"four",
-              "name":"button",
-              "x":297
-            }
-          },
-          {
-            "cls":"feathers.controls.Button",
-            "customParams":{},
-            "params":{
-              "label":"five",
-              "name":"button",
-              "y":68
-            }
-          },
-          {
-            "cls":"feathers.controls.Button",
-            "customParams":{},
-            "params":{
-              "label":"six",
-              "name":"button",
-              "x":92,
-              "y":68
-            }
-          }
-        ],
-        "cls":"feathers.controls.LayoutGroup",
-        "customParams":{},
-        "params":{
-          "layout":{
-            "cls":"feathers.layout.FlowLayout",
-            "constructorParams":[],
-            "customParams":{},
-            "params":{
-              "gap":10,
-              "horizontalAlign":"left"
-            }
-          },
-          "name":"layoutGroup",
-          "width":402,
-          "x":41.5,
-          "y":51.5
-        }
-      },
-      {
-        "children":[
-          {
             "cls":"starling.display.Image",
             "constructorParams":[
               {
@@ -472,6 +397,7 @@
     }
   },
   "setting":{
+    "canvasColor":16777215,
     "canvasSize":{
       "x":640,
       "y":960
