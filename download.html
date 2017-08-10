@@ -1,92 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="default.css">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-77732896-1', 'auto');
-  ga('send', 'pageview');
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="default.css">
 
-</script>
-<title>Download - Starling Builder - Open Source UI Editor for Starling</title>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-77732896-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+	<title>Download - Starling Builder - Open Source UI Editor for Starling</title>
 </head>
 <body>
 
-<img src="icon.png" id="icon"/>
-<br>
-<h1>Starling Builder</h1>
-<h3 id="subtitle">Open Source UI Editor for Starling</h3>
+<div class="container">
+
+	<img src="icon.png" id="icon"/>
+	<br>
+	<h1>Starling Builder</h1>
+	<h3>Open Source UI Editor for Starling</h3>
 
 
 
-<p>
-<a class="menu" href="index.html">Home</a>
-<a class="active_menu" href="download.html">Download</a>
-<a class="menu" href="demo.html">Demo</a>
-<a class="menu" href="tutorial.html">Tutorial</a>
-<a class="menu" href="http://wiki.starling-framework.org/builder/start">Documentation</a>
-<a class="menu" href="api/index.html">API Reference</a>
-</p>
+	<ul class="nav nav-tabs" id="sb">
+		<li><a href="index.html">Home</a></li>
+		<li class="active"><a href="download.html">Download</a></li>
+		<li><a href="demo.html">Demo</a></li>
+		<li><a href="tutorial.html">Tutorial</a></li>
+		<li><a href="http://wiki.starling-framework.org/builder/start">Documentation</a></li>
+		<li><a href="api/index.html">API Reference</a></li>
+	</ul>
 
-<hr id="hr">
-<h2>Download Editor</h2>
+	<h2>Download Editor</h2>
 
-<table>
-	<tr>
-		<th>Version</th>
-		<th>Editor</th>
-		<th>Demo Workspace</th>
-	</tr>
-    <tr>
-        <td>Starling 1.x</td>
-        <td><a onclick="ga('send', 'event', 'Downloads', 'Click', '1.x', 1);" href="http://starlingbuilder.github.io/download/1.x/v1.3.3/starling-builder.air">Starling Builder v1.3.3</a></td>
-        <td><a href="http://starlingbuilder.github.io/download/1.x/v1.3.3/demo_workspace.zip">demo_workspace.zip</a></td>
-    </tr>
-    <tr>
-    	<td>Starling 2.x</td>
-    	<td><a onclick="ga('send', 'event', 'Downloads', 'Click', '2.x', 1);" href="http://starlingbuilder.github.io/download/2.x/v2.3.3/starling-builder.air">Starling Builder v2.3.3</a></td>
-    	<td><a href="http://starlingbuilder.github.io/download/2.x/v2.3.3/demo_workspace.zip">demo_workspace.zip</a></td>
-    </tr>
-</table>
+	<table class="table">
+		<tr>
+			<th>Version</th>
+			<th>Editor</th>
+			<th>Demo Workspace</th>
+		</tr>
+		<tr>
+			<td>Starling 1.x</td>
+			<td><a onclick="ga('send', 'event', 'Downloads', 'Click', '1.x', 1);" href="http://starlingbuilder.github.io/download/1.x/v1.3.3/starling-builder.air">Starling Builder v1.3.3</a></td>
+			<td><a href="http://starlingbuilder.github.io/download/1.x/v1.3.3/demo_workspace.zip">demo_workspace.zip</a></td>
+		</tr>
+		<tr>
+			<td>Starling 2.x</td>
+			<td><a onclick="ga('send', 'event', 'Downloads', 'Click', '2.x', 1);" href="http://starlingbuilder.github.io/download/2.x/v2.3.3/starling-builder.air">Starling Builder v2.3.3</a></td>
+			<td><a href="http://starlingbuilder.github.io/download/2.x/v2.3.3/demo_workspace.zip">demo_workspace.zip</a></td>
+		</tr>
+	</table>
 
-<p><a href="http://github.com/starlingbuilder/starlingbuilder.github.io/tree/master/download">Previous versions</a></p>
+	<p><a href="http://github.com/starlingbuilder/starlingbuilder.github.io/tree/master/download">Previous versions</a></p>
 
-<h2>Engine Source Code</h2>
-<a href="http://github.com/yuhengh/starling-builder-engine">http://github.com/yuhengh/starling-builder-engine</a>
+	<h2>Engine Source Code</h2>
+	<a href="http://github.com/yuhengh/starling-builder-engine">http://github.com/yuhengh/starling-builder-engine</a>
 
-<h2>Editor Source Code</h2>
-<a href="http://github.com/yuhengh/starling-builder-editor">http://github.com/yuhengh/starling-builder-editor</a>
+	<h2>Editor Source Code</h2>
+	<a href="http://github.com/yuhengh/starling-builder-editor">http://github.com/yuhengh/starling-builder-editor</a>
 
-<h2>Extensions Source Code</h2>
-<a href="http://github.com/yuhengh/starling-builder-extensions">http://github.com/yuhengh/starling-builder-extensions</a>
+	<h2>Extensions Source Code</h2>
+	<a href="http://github.com/yuhengh/starling-builder-extensions">http://github.com/yuhengh/starling-builder-extensions</a>
 
-<br><br>
-<hr>
+	<br><br>
+	<hr>
 
-<h2>Tips:</h2>
+	<h2>Tips:</h2>
 
-<p>
-For starters, please download the editor and the corresponding demo_workspace. When you open the editor, choose the extracted demo_workspace folder as your workspace.
-You will find the demo layouts in files tab or directly open those files in the demo_workspace/layouts folder.
-</p>
+	<p>
+		For starters, please download the editor and the corresponding demo_workspace. When you open the editor, choose the extracted demo_workspace folder as your workspace.
+		You will find the demo layouts in files tab or directly open those files in the demo_workspace/layouts folder.
+	</p>
 
-<p>
-In order to put into the game, you will need to download the engine repository. Before you start, it's highly recommended to check out the 
-<a href="https://github.com/yuhengh/starling-builder-engine/tree/master/scaffold">scaffold</a> and 
-<a href="https://github.com/yuhengh/starling-builder-engine/tree/master/demo-2.x">demo</a> project.
-To make life easier, you can start with copying files from the scaffold folder, which serves as a minimal project to use Starling Builder.
-</p>
+	<p>
+		In order to put into the game, you will need to download the engine repository. Before you start, it's highly recommended to check out the
+		<a href="https://github.com/yuhengh/starling-builder-engine/tree/master/scaffold">scaffold</a> and
+		<a href="https://github.com/yuhengh/starling-builder-engine/tree/master/demo-2.x">demo</a> project.
+		To make life easier, you can start with copying files from the scaffold folder, which serves as a minimal project to use Starling Builder.
+	</p>
 
-<p>
-For more information please see the <a href="http://wiki.starling-framework.org/builder/start">Documentation</a> page
-</p>
+	<p>
+		For more information please see the <a href="http://wiki.starling-framework.org/builder/start">Documentation</a> page
+	</p>
 
-<hr>
-<br>
+	<hr>
+	<br>
+
+</div>
 
 </body>
 </html>

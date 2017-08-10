@@ -1,68 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="default.css">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-77732896-1', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-77732896-1', 'auto');
+        ga('send', 'pageview');
 
-</script>
-<title>Tutorial - Starling Builder - Open Source UI Editor for Starling</title>
+    </script>
+    <title>Tutorial - Starling Builder - Open Source UI Editor for Starling</title>
 </head>
 <body>
 
-<img src="icon.png" id="icon"/>
-<br>
-<h1>Starling Builder</h1>
-<h3 id="subtitle">Open Source UI Editor for Starling</h3>
+<div class="container">
 
+    <img src="icon.png" id="icon"/>
+    <br>
+    <h1>Starling Builder</h1>
+    <h3>Open Source UI Editor for Starling</h3>
 
+    <ul class="nav nav-tabs" id="sb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="download.html">Download</a></li>
+        <li><a href="demo.html">Demo</a></li>
+        <li class="active"><a href="tutorial.html">Tutorial</a></li>
+        <li><a href="http://wiki.starling-framework.org/builder/start">Documentation</a></li>
+        <li><a href="api/index.html">API Reference</a></li>
+    </ul>
 
-<p>
-<a class="menu" href="index.html">Home</a>
-<a class="menu" href="download.html">Download</a>
-<a class="menu" href="demo.html">Demo</a>
-<a class="active_menu" href="tutorial.html">Tutorial</a>
-<a class="menu" href="http://wiki.starling-framework.org/builder/start">Documentation</a>
-<a class="menu" href="api/index.html">API Reference</a>
-</p>
+    <h1>Video tutorial</h1>
+    <h2>How to use scale9Grid and tileGrid</h2>
+    <iframe width="600" height="450", src="https://www.youtube.com/embed/DLXNSmRIwyA" frameborder="0" allowfullscreen></iframe>
+    <h2>How to use feathers layout</h2>
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/jHxft7ze940" frameborder="0" allowfullscreen></iframe>
+    <h2>How to use scroll container</h2>
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/HLWDl3DFKns" frameborder="0" allowfullscreen></iframe>
+    <h2>How to use feathers list</h2>
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/JN6EojLMpxE" frameborder="0" allowfullscreen></iframe>
+    <h2>How to use starling filters</h2>
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/t8iZ-mo5kI8" frameborder="0" allowfullscreen></iframe>
+    <h2>How to use localization</h2>
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/RKZcCAMWCuQ" frameborder="0" allowfullscreen></iframe>
+    <h2>How to use tween</h2>
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/0u54E9OKKOA" frameborder="0" allowfullscreen></iframe>
+    <h2>How to use starling MovieClip</h2>
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/CAa7D1bFSCk" frameborder="0" allowfullscreen></iframe>
+    <h2>How to use AnchorLayout</h2>
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/ECqxx5NnF_k" frameborder="0" allowfullscreen></iframe>
+    <h2>How to use external layout</h2>
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/eEJav35hJ-Q" frameborder="0" allowfullscreen></iframe>
+    <h2>How to use container button</h2>
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/MqwrGEVM6Uw" frameborder="0" allowfullscreen></iframe>
+    <hr>
+    <h1>Talks</h1>
+    <h2>Extending Starling Builder - Flash Online Conference #13</h2>
+    <iframe width="600" height="450" src="https://www.youtube.com/embed/lFpiCkIDXp8" frameborder="0" allowfullscreen></iframe>
+    <br><br>
+    <hr>
 
-<hr id="hr">
-
-<h1>Video tutorial</h1>
-<h2>How to use scale9Grid and tileGrid</h2>
-<iframe width="600" height="450", src="https://www.youtube.com/embed/DLXNSmRIwyA" frameborder="0" allowfullscreen></iframe>
-<h2>How to use feathers layout</h2>
-<iframe width="600" height="450" src="https://www.youtube.com/embed/jHxft7ze940" frameborder="0" allowfullscreen></iframe>
-<h2>How to use scroll container</h2>
-<iframe width="600" height="450" src="https://www.youtube.com/embed/HLWDl3DFKns" frameborder="0" allowfullscreen></iframe>
-<h2>How to use feathers list</h2>
-<iframe width="600" height="450" src="https://www.youtube.com/embed/JN6EojLMpxE" frameborder="0" allowfullscreen></iframe>
-<h2>How to use starling filters</h2>
-<iframe width="600" height="450" src="https://www.youtube.com/embed/t8iZ-mo5kI8" frameborder="0" allowfullscreen></iframe>
-<h2>How to use localization</h2>
-<iframe width="600" height="450" src="https://www.youtube.com/embed/RKZcCAMWCuQ" frameborder="0" allowfullscreen></iframe>
-<h2>How to use tween</h2>
-<iframe width="600" height="450" src="https://www.youtube.com/embed/0u54E9OKKOA" frameborder="0" allowfullscreen></iframe>
-<h2>How to use starling MovieClip</h2>
-<iframe width="600" height="450" src="https://www.youtube.com/embed/CAa7D1bFSCk" frameborder="0" allowfullscreen></iframe>
-<h2>How to use AnchorLayout</h2>
-<iframe width="600" height="450" src="https://www.youtube.com/embed/ECqxx5NnF_k" frameborder="0" allowfullscreen></iframe>
-<h2>How to use external layout</h2>
-<iframe width="600" height="450" src="https://www.youtube.com/embed/eEJav35hJ-Q" frameborder="0" allowfullscreen></iframe>
-<h2>How to use container button</h2>
-<iframe width="600" height="450" src="https://www.youtube.com/embed/MqwrGEVM6Uw" frameborder="0" allowfullscreen></iframe>
-<hr>
-<h1>Talks</h1>
-<h2>Extending Starling Builder - Flash Online Conference #13</h2>
-<iframe width="600" height="450" src="https://www.youtube.com/embed/lFpiCkIDXp8" frameborder="0" allowfullscreen></iframe>
-<br><br>
-<hr>
+</div>
 
 </body>
 </html>

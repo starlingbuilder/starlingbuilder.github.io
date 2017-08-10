@@ -1,111 +1,59 @@
 body {
 background-color: #fcfcfc;
 font-family: Verdana;
-padding-left: 50px
 }
 
 #icon {
     float: left;
-    margin: 0px 0px 0px 0px;
 }
 
 h1 {
-	color: #c42700
+	color: #c42700;
+    font-weight: bold;
 }
 
-h2 {
+h2, h3 {
+    font-weight: bold;
 }
 
-
-#hr {
-	margin-top:-11px
-}
-
-
-
-.menu {
-    text-decoration: none;   
-    border-radius: 5px 5px 0px 0px;
-	padding-top: 5px;
+#sb.nav-tabs > li > a {
+  color: #ffffff;
+  background-color: #951a00;
+  margin-right: 5px;
+    margin-top: 5px;
+  padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color: #951a00;
-	color: #ffffff;
 }
 
-.menu:hover {
-	background-color: #E62700;
+#sb.nav-tabs > li.active > a {
+  color: #ffffff;
+  background-color: #E62700;
 }
 
-.active_menu {
-	text-decoration: none;   
-    border-radius: 5px 5px 0px 0px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: #E62700;
-	color: #ffffff;
+.nav-tabs > li > a:hover{
+  color: #ffffff;
+  background-color: #E62700 !important;
 }
 
-
-li {
-	padding: 5
-}
-
-
-a {
+a, a:link, a:hover, a:visited, a:active{
 	color: #951a00
 }
 
-table, th, td {
-    border: 1px solid grey;
-    border-collapse: collapse;
-}
-td {
-    padding: 15px;
-}
-
-
-th {
-	padding: 5px;
-    background-color: #951a00;
-    color: white;
-}
-
-
-
-
 blockquote {
 font-family: Georgia, serif;
-font-size: 18px;
 font-style: italic;
-width: 500px;
-margin: 0.25em 0;
-padding: 0.25em 40px;
 line-height: 1.45;
 position: relative;
 color: #383838;
 }
 
-blockquote:before {
-display: block;
-content: "\201C";
-font-size: 80px;
-position: absolute;
-left: -20px;
-top: -20px;
-color: #7a7a7a;
-}
-
 blockquote cite {
 color: #999999;
-font-size: 16px;
 display: block;
-margin-top: 5px;
 }
- 
+
 blockquote cite:before {
 content: "\2014 \2009";
 }

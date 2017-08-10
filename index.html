@@ -1,113 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="default.css">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-77732896-1', 'auto');
-  ga('send', 'pageview');
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-</script>
-<title>Starling Builder - Open Source UI Editor for Starling</title>
+        ga('create', 'UA-77732896-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <title>Starling Builder - Open Source UI Editor for Starling</title>
 </head>
 <body>
 
+<div class="container">
 
 
-<img src="icon.png" id="icon"/>
-<br>
-<h1>Starling Builder</h1>
-<h3 id="subtitle">Open Source UI Editor for Starling</h3>
+    <img src="icon.png" id="icon"/>
+    <br>
+    <h1>Starling Builder</h1>
+    <h3>Open Source UI Editor for Starling</h3>
 
 
 
-<p>
-<a class="active_menu" href="index.html">Home</a>
-<a class="menu" href="download.html">Download</a>
-<a class="menu" href="demo.html">Demo</a>
-<a class="menu" href="tutorial.html">Tutorial</a>
-<a class="menu" href="http://wiki.starling-framework.org/builder/start">Documentation</a>
-<a class="menu" href="api/index.html">API Reference</a>
-</p>
-
-<hr id="hr">
-
-<img src="image.jpg" width="800" alt="Starling Builder"/>
+    <ul class="nav nav-tabs" id="sb">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="download.html">Download</a></li>
+        <li><a href="demo.html">Demo</a></li>
+        <li><a href="tutorial.html">Tutorial</a></li>
+        <li><a href="http://wiki.starling-framework.org/builder/start">Documentation</a></li>
+        <li><a href="api/index.html">API Reference</a></li>
+    </ul>
 
 
-<blockquote>
-This is going to be super useful for a lot of developers out there, and it's a great addition to the "ecosystem" that has grown around Starling.
-<cite>Daniel Sperl, the author of Starling Framework</cite>
-</blockquote>
 
-<br>
+    <img class="img-responsive" src="image.jpg" alt="Starling Builder"/>
 
-<blockquote>
-That is what I was waiting for for years! Awesome :)
-<cite>Rounded Strategy, game developer</cite>
-</blockquote>
 
-<br>
+    <blockquote>
+        This is going to be super useful for a lot of developers out there, and it's a great addition to the "ecosystem" that has grown around Starling.
+        <cite>Daniel Sperl, the author of Starling Framework</cite>
+    </blockquote>
 
-<blockquote>
-This tool is so useful and extendable, really good work!
-<cite>Kevin Liu, game developer</cite>
-</blockquote>
+    <br>
 
-<h3>What is Starling Builder?</h3>
+    <blockquote>
+        That is what I was waiting for for years! Awesome :)
+        <cite>Rounded Strategy, game developer</cite>
+    </blockquote>
 
-<p>
-Starling Builder is an open source UI editor for Starling.
-It's built on top of <a href="http://gamua.com/starling/">Starling</a> and <a href="http://feathersui.com/">Feathers UI</a> framework. You can edit your user interfaces in Starling Builder, export them to JSON layout files, and create the starling display objects directly in the game. It provides an WYSIWYG way to create any in-game UI in minutes.
-</p>
+    <br>
 
-<p>
-Starling Builder is backed by <a href="http://www.sgn.com/">SGN Games Inc</a>, one of the fastest growing mobile game company in US,<br>
-proven by our top grossing games <a href="http://www.sgn.com/juice-jam/">Juice Jam</a>, <a href="http://www.sgn.com/book-of-life-sugar-smash/">Book of Life: Sugar Smash</a> and more,<br>
-and recommended by the <a href="http://gamua.com/blog/2015/11/introducing-starling-builder/">official Starling website</a>.
-</p>
+    <blockquote>
+        This tool is so useful and extendable, really good work!
+        <cite>Kevin Liu, game developer</cite>
+    </blockquote>
 
-<h3>Why to choose?</h3>
-<ul>
-<li>Deeply integrate with Starling and Feathers UI Framework</li>
-<li>Engine is a single code base that supports both Starling 1.x and 2.x and runs on everywhere</li>
-<li>Engine is super lightweight and very stable (adding only &lt;1000 lines of code to your project)</li>
-<li>Editor is user friendly and easy to master</li>
-<li>Flexible architecture, almost everything is configurable and extendable</li>
-<li>Everything is open source(engine, editor, extensions), you get all of them to be able to extend the tools</li>
-</ul>
+    <h3>What is Starling Builder?</h3>
 
-<h3>Features supported</h3>
+    <p>
+        Starling Builder is an open source UI editor for Starling.
+        It's built on top of <a href="http://gamua.com/starling/">Starling</a> and <a href="http://feathersui.com/">Feathers UI</a> framework. You can edit your user interfaces in Starling Builder, export them to JSON layout files, and create the starling display objects directly in the game. It provides an WYSIWYG way to create any in-game UI in minutes.
+    </p>
 
-<ul>
-<li>Create and edit Starling/Feathers/Custom UI elements</li>
-<li>Customize components and its editable properties (through config file)</li>
-<li>Nested components (through Sprite/LayoutGroup/ScrollContainer etc.)</li>
-<li>Nested layout (a layout contains another layout)</li>
-<li>Slice 3/9 editor for Image</li>
-<li>Custom UI Components extension (through loading swf files)</li>
-<li>Custom Feathers Theme extension (through loading swf files)</li>
-<li>Custom Component Class (create a generic game-agnostic class in editor but initiate a custom game-specific class in game)</li>
-<li>Display object binding (automatically bind display object from layout data to properties in UI class)
-<li>Multiple resolution support (only need one set of layout files to run on any devices)</li>
-<li>Localization build-in support</li>
-<li>Starling filters support</li>
-<li>Starling mask support</li>
-<li>Feathers layout support</li>
-<li>Feathers data provider support</li>
-<li>Starling tween support</li>
-<li>Distance field style support</li>
-<li>Dynamic lighting support (through custom UI component extension)</li>
-</ul>
+    <p>
+        Starling Builder is backed by <a href="http://www.sgn.com/">SGN Games Inc</a>, one of the fastest growing mobile game company in US,<br>
+        proven by our top grossing games <a href="http://www.sgn.com/juice-jam/">Juice Jam</a>, <a href="http://www.sgn.com/book-of-life-sugar-smash/">Book of Life: Sugar Smash</a> and more,<br>
+        and recommended by the <a href="http://gamua.com/blog/2015/11/introducing-starling-builder/">official Starling website</a>.
+    </p>
 
-<hr>
+    <h3>Why to choose?</h3>
+    <ul>
+        <li>Deeply integrate with Starling and Feathers UI Framework</li>
+        <li>Engine is a single code base that supports both Starling 1.x and 2.x and runs on everywhere</li>
+        <li>Engine is super lightweight and very stable (adding only &lt;1000 lines of code to your project)</li>
+        <li>Editor is user friendly and easy to master</li>
+        <li>Flexible architecture, almost everything is configurable and extendable</li>
+        <li>Everything is open source(engine, editor, extensions), you get all of them to be able to extend the tools</li>
+    </ul>
 
-<br>
+    <h3>Features supported</h3>
 
+    <ul>
+        <li>Create and edit Starling/Feathers/Custom UI elements</li>
+        <li>Customize components and its editable properties (through config file)</li>
+        <li>Nested components (through Sprite/LayoutGroup/ScrollContainer etc.)</li>
+        <li>Nested layout (a layout contains another layout)</li>
+        <li>Slice 3/9 editor for Image</li>
+        <li>Custom UI Components extension (through loading swf files)</li>
+        <li>Custom Feathers Theme extension (through loading swf files)</li>
+        <li>Custom Component Class (create a generic game-agnostic class in editor but initiate a custom game-specific class in game)</li>
+        <li>Display object binding (automatically bind display object from layout data to properties in UI class)
+        <li>Multiple resolution support (only need one set of layout files to run on any devices)</li>
+        <li>Localization build-in support</li>
+        <li>Starling filters support</li>
+        <li>Starling mask support</li>
+        <li>Feathers layout support</li>
+        <li>Feathers data provider support</li>
+        <li>Starling tween support</li>
+        <li>Distance field style support</li>
+        <li>Dynamic lighting support (through custom UI component extension)</li>
+    </ul>
+
+    <hr>
+
+    <br>
+
+
+
+</div>
 
 </body>
 </html>
