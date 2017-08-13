@@ -41,35 +41,6 @@ Learn more about Flex at http://flex.org
         ga('send', 'pageview');
 
     </script>
-    <script type="text/javascript" src="history/history.js"></script>
-    <!-- END Browser History required section -->
-
-    <script type="text/javascript" src="swfobject.js"></script>
-    <script type="text/javascript">
-        // For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection.
-        var swfVersionStr = "19.0.0";
-        // To use express install, set to playerProductInstall.swf, otherwise the empty string.
-        var xiSwfUrlStr = "playerProductInstall.swf";
-        var flashvars = {};
-        var params = {};
-        params.quality = "high";
-        params.bgcolor = "#ffffff";
-        params.allowscriptaccess = "sameDomain";
-        params.allowfullscreen = "true";
-        params.wmode = "direct";
-        var attributes = {};
-        attributes.id = "demo_web";
-        attributes.name = "demo_web";
-        attributes.align = "middle";
-        swfobject.embedSWF(
-                "demo_web.swf", "flashContent",
-                "640", "960",
-                swfVersionStr, xiSwfUrlStr,
-                flashvars, params, attributes);
-        // JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
-        swfobject.createCSS("#flashContent", "display:block;text-align:left;");
-    </script>
-
     <title>Demo - Starling Builder - Open Source UI Editor for Starling</title>
 </head>
 <body>
@@ -92,57 +63,29 @@ Learn more about Flex at http://flex.org
         <li><a href="api/index.html">API Reference</a></li>
     </ul>
 
-    <h2>Online Demo:</h2>
-    <!-- SWFObject's dynamic embed method replaces this alternative HTML content with Flash content when enough
-         JavaScript and Flash plug-in support is available. The div is initially hidden so that it doesn't show
-         when JavaScript is disabled.
-    -->
-    <div id="flashContent">
-        <p>
-            To view this page ensure that Adobe Flash Player version
-            19.0.0 or greater is installed.
-        </p>
-        <script type="text/javascript">
-            var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://");
-            document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='"
-                    + pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" );
-        </script>
-    </div>
 
+    <h3>Flash Online Demo</h3>
 
-    <noscript>
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="640" height="960" id="demo_web">
-            <param name="movie" value="demo_web.swf" />
-            <param name="quality" value="high" />
-            <param name="bgcolor" value="#ffffff" />
-            <param name="allowScriptAccess" value="sameDomain" />
-            <param name="allowFullScreen" value="true" />
-            <!--[if !IE]>-->
-            <object type="application/x-shockwave-flash" data="demo_web.swf" width="640" height="960">
-                <param name="quality" value="high" />
-                <param name="bgcolor" value="#ffffff" />
-                <param name="allowScriptAccess" value="sameDomain" />
-                <param name="allowFullScreen" value="true" />
-                <!--<![endif]-->
-                <!--[if gte IE 6]>-->
-                <p>
-                    Either scripts and active content are not permitted to run or Adobe Flash Player version
-                    19.0.0 or greater is not installed.
-                </p>
-                <!--<![endif]-->
-                <a href="http://www.adobe.com/go/getflashplayer">
-                    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" />
-                </a>
-                <!--[if !IE]>-->
-            </object>
-            <!--<![endif]-->
-        </object>
-    </noscript>
+    <p>Link:<br>
+    <a href="demo-flash/index.html">http://starlingbuilder.github.io/demo-flash/index.html</a>
+    </p>
 
-    <h2>Demo Source Code:</h2>
+    <p>Source Code:<br>
     <a href="http://github.com/yuhengh/starling-builder-engine/tree/master/demo-2.x">http://github.com/yuhengh/starling-builder-engine/tree/master/demo-2.x</a>
+    </p>
 
-    <br><br>
+
+    <h3>Html5 Online Demo</h3>
+
+    <p>(built with OpenFL/Starling Haxe/Starling Builder Haxe)</p>
+
+    <p>Link:<br>
+        <a href="demo-haxe/index.html">http://starlingbuilder.github.io/demo-haxe/index.html</a>
+    </p>
+
+    <p>Source Code:<br>
+        <a href="http://github.com/yuhengh/starling-builder-haxe/tree/master/demo">http://github.com/yuhengh/starling-builder-haxe/tree/master/demo</a>
+    </p>
 
     <hr>
 
